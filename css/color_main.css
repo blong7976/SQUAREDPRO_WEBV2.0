@@ -1,0 +1,234 @@
+﻿/*
+Template: Hallooou HTML5 Responsive template
+Author: Mauritius D'Silva <hello@mauritiusdsilva.com>
+Theme URI: http://www.mauritiusdsilva.com/themes/hallooou
+Version: 1.0
+
+*/
+/*  ----------------------------------------------
+            CSS TABLE OF CONTENTS
+    ------------------------------------------------- */
+/*
+1:  Body and paragraph text color
+2:  Primary color
+3:  Hover color - Lighter or darker shade of Primary color for hover
+4:  Secondary color
+5:  Slider (Hero unit) overlay color (optional)
+6:  Colors with opacity
+7:  Dark color/Footer color
+8:  Text selection color
+
+/*
+----------------------------------------------------- */
+/* COLOR STYLES
+/* ---------------------------------------------- */
+/* 1:   Body and paragraph text color */
+/* ---------------------------------------------- */
+body,
+.services-item p {
+  color: #999;
+}
+.scroll-style::-webkit-scrollbar-thumb {
+  width: 2px;
+  background: #ff5a00;
+}
+/* 2:   Primary color */
+/* ---------------------------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a:hover,
+a:focus,
+.highlight,
+.navbar-custom a,
+.services-item i,
+.client-info h4,
+blockquote {
+  color: #ff5a00;
+  /* Primary color */
+}
+.pace .pace-progress,
+.overlay,
+.products-container span.icon,
+.full-project,
+.project-navigation a:hover,
+.cta-two-section,
+.full-project,
+.btn-default,
+.btn-overcolor,
+.client-testimonials.owl-theme .owl-controls .owl-page span,
+.recent-project-carousel.owl-theme .owl-controls .owl-page span,
+.scroll-top a:link,
+.scroll-top a:visited,
+.modal .modal-back a {
+  background: #ff5a00;
+  /* Primary color */
+}
+/*��������*/
+.our-clients {
+  background: #fff;
+}
+.our-clients h2 {
+  color: #ff5a00;
+}
+.recent-project h4.title {
+  border-left: solid 5px #ff5a00;
+}
+.recent-project .title-second li {
+  color: #ff5a00;
+}
+.services-item:before {
+  border-bottom-color: #ff5a00;
+  /* Primary color */
+  border-left-color: #ff5a00;
+  /* Primary color */
+}
+.modal .close:before {
+  border-bottom-color: #ff5a00;
+  border-left-color: #ff5a00;
+  /* Primary color */
+}
+.nav .button {
+  color: #fff;
+  cursor: pointer;
+}
+.testimonials p.speech,
+.btn-default,
+.scroll-top a:link,
+.scroll-top a:visited,
+.modal .modal-back a,
+blockquote {
+  border-color: #ff5a00;
+  /* Primary color */
+}
+.testimonials p.speech:before {
+  border-top-color: #ff5a00;
+  /* Primary color */
+  border-left-color: #ff5a00;
+  /* Primary color */
+}
+/* 3:   Hover color - Lighter or darker shade of Primary color for hover */
+/* ---------------------------------------------- */
+.btn-default:hover,
+.btn-default:focus,
+.btn-overcolor:hover,
+.btn-overcolor:focus,
+.scroll-top a:hover,
+.modal .modal-back a:hover {
+  border: 1px solid #ff7805;
+  /* Hover color */
+  background: #ff7805;
+  /* Hover color */
+}
+.full-project:hover {
+  background: #ff7805;
+  /* Hover color */
+}
+.btn-overcolor:hover {
+  border: 1px solid #fff;
+  /* Optional Hover border color */
+}
+/*/!* ��Ƹ *!/*/
+/*.table.table-bordered td {*/
+/*border-color: #1c1e2b;*/
+/*color: #fff;*/
+/*cursor: pointer;*/
+/*width: 20%;*/
+/*}*/
+.table.table-bordered td.p10:hover,
+.table.table-bordered td.p10:active,
+.table.table-bordered td.p05:hover,
+.table.table-bordered td.p05:active {
+  background: #ff7805;
+  color: #fff;
+}
+/*news*/
+.news-content li[data-content]:hover {
+  color: #ff7805;
+}
+/* 4:   Secondary color */
+/* ---------------------------------------------- */
+/*.our-clients {*/
+/*background: #2d2d37; /!* Secondary color *!/*/
+/*}*/
+.btn-outlined {
+  border: 1px solid #2d2d37;
+  /* Secondary color */
+  background-color: #2d2d37;
+  /* Secondary color */
+}
+.btn-outlined:hover,
+.btn-outlined:focus {
+  color: #2d2d37;
+  /* Secondary color */
+  border: 1px solid #2d2d37;
+  /* Secondary color */
+}
+/* 5:   Slider (Hero unit) overlay color (optional) */
+/* ---------------------------------------------- */
+.overlay-detail {
+  background: #000;
+  /* optional color for overlay */
+}
+/* 6:   Colors with opacity - Set RGBA by generating values here--> http://hex2rgba.devoth.com/  */
+/* ---------------------------------------------- */
+/* RGBA of Primary color */
+.carousel-control.left:hover,
+.carousel-control.right:hover,
+.team-member figure:hover figcaption,
+.services-item:hover {
+  background-color: rgba(255, 90, 0, 0.9);
+  /* RGBA of Primary color - opacity .9 */
+}
+.navbar-custom.top-nav-collapse {
+  background: rgba(0, 0, 0, 0.6);
+}
+#cd-zoom-in,
+#cd-zoom-out {
+  background-color: rgba(255, 90, 0, 0.9);
+  /* RGBA of Primary color - opacity .9 */
+}
+/* Modal
+*/
+.modal-container .line-left {
+  border-color: #ff5a00;
+}
+.modal-services-content a {
+  color: #ff5a00;
+}
+.modal-services-content a:hover {
+  color: #ff7805;
+}
+/* 7:   Dark color/Footer color */
+/* ---------------------------------------------- */
+footer {
+  background: #2b2e30;
+}
+footer .copynote {
+  color: #4c5359;
+  background: #1f2123;
+  /*rgba(45,45,55, .97); Dark color/Footer color */
+}
+footer .row ul li a:hover {
+  color: #ff7805;
+}
+footer .btn-lang.active {
+  color: #ff7805;
+}
+/* 8:   Text selection color */
+/* ---------------------------------------------- */
+::-moz-selection {
+  background: rgba(255, 90, 0, 0.7);
+  /* RGBA of Primary color - opacity .7 */
+}
+::selection {
+  background: rgba(255, 90, 0, 0.7);
+  /* RGBA of Primary color - opacity .7 */
+}
+body {
+  webkit-tap-highlight-color: rgba(255, 90, 0, 0.7);
+  /* RGBA of Primary color - opacity .7 */
+}
