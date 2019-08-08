@@ -1048,9 +1048,14 @@ video {
 }
 
 .product-item {
-    padding: 10px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
 }
-
+.product-item:hover .media-left .icon{
+   position: relative;
+   transition: all 1s;
+   transform: rotateY(30deg)
+}
 .product-item h3 {
     margin: 0;
     padding: 0 10px;
@@ -2227,8 +2232,17 @@ body {
 
 
 /*
-    自定义 CSS 
+    custom CSS 
  */
  .logo{
      height: 37px;
+ }
+ .custom_color{
+    color: #000 !important;
+ }
+ .modal-services-content .em{
+     display: inline-block;
+     text-align: center;
+     margin: 10px;
+     line-height: 2em;
  }
