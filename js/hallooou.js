@@ -1,10 +1,10 @@
 // jQuery to collapse the navbar on scroll
 function resetScroll() {
     if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top,#language_pc").addClass("top-nav-collapse");
+        $(".navbar-fixed-top,.toolbar").addClass("top-nav-collapse");
         $(".scroll-top").fadeIn('1000', "easeInOutExpo");
     } else {
-        $(".navbar-fixed-top,#language_pc").removeClass("top-nav-collapse");
+        $(".navbar-fixed-top,.toolbar").removeClass("top-nav-collapse");
         $(".scroll-top").fadeOut('1000', "easeInOutExpo");
     }
 }
@@ -76,6 +76,17 @@ $(function () {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+    // Select language
+    $("#language_pc,#language").on('change',function(e){
+        if(e.currentTarget.value){
+            if(e.currentTarget.value==="EN")
+            window.location.href="index.html"
+            if(e.currentTarget.value==="CH")
+            window.location.href="indexCh.html"
+        }else{
+           alert("~啊哦~操作有误,请联系客服...") 
+        }
+    }) 
 });
 
 

@@ -2252,20 +2252,62 @@ body {
  }
  #language_pc{
     font-family: SimSun !important;
+    display: inline-block;
     padding: 6px;
     font-size: 14px;
-    top: 30px;
-    right: 10px;
-    position: absolute;
-    transition: ease-in-out .5s;
     border-radius: 3px;
     border: none;
  }
- #language_pc.top-nav-collapse{
+ .toolbar{
+    top: 28px;
+    right: 10px;
+    position: absolute;
+    transition: ease-in-out .5s;
+ }
+ .toolbar.top-nav-collapse{
      top: 20px;
  }
  @media (max-width: 1440px) {
-   #language_pc{
+   .toolbar{
        display: none;
    }
+}
+.loginRegister{
+    display: inline-table;
+}
+.loginRegister a{
+    color: #d2d2d2 !important;
+    font-family: SimSun !important;
+    display: inline-block;
+    padding: 4px 6px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: none;
+    position: relative;
+    transition: ease-in-out .5s;
+}
+.loginRegister a::before{
+    content: "";
+    width: 1px;
+    height: 14px;
+    background: #9b9b9b;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.loginRegister a:last-child::before{
+    display: none;
+}
+.loginRegister a:hover{
+    color: #fff !important;
+}
+.overlay ul li:last-child a{
+    font-family: SimSun !important;
+    padding: 5px;
+    font-size: 14px !important;
+    line-height: 30px;
+    background: #fff;
+    color: #959493;
+    margin-top: 16px;
 }
