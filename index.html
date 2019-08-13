@@ -17,7 +17,7 @@
 <link href="css/magnific-popup.css" rel="stylesheet">
 <link href="css/jquery.mb.ytplayer.min.css" rel="stylesheet">
 <link href="css/font-awesome.min.css" rel="stylesheet">
-
+<link href="css/jquery.vidbacking.css" rel="stylesheet">
 </head>
 <body id="home">
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -33,6 +33,10 @@
 		<li><a href="#products" class="button">SUPPORT</a></li>
 		<li><a href="#contact" class="button">CONTACT</a></li>
 	</ul>
+	<select id="language_pc">
+			<option value="EN">English</option>
+			<option value="CH">中文</option>
+	</select>
 	<div class="main-nav pull-right">
 		<div class="button_container toggle">
 			<span class="top"></span><span class="middle"></span><span class="bottom"></span>
@@ -47,6 +51,12 @@
 				<li><a href="#services" >PRODUCTS</a></li>
 				<li><a href="#products" >SUPPORT</a></li>
 				<li><a href="#contact" >CONTACT</a></li>
+				<li>
+					<select id="language">
+						<option value="EN">English</option>
+						<option value="CH">中文</option>
+					</select>
+				</li>
 			</ul>
 		</nav>
 	</div>
@@ -55,7 +65,11 @@
 <header id="intro-carousel" class="carousel slide">
 <div class="carousel-inner">
 	<div class="item active">
-		<div class="fill" style="background-image:url(images/cover-one.jpg)">
+		<div class="fill video-back">
+				<!-- style="background-image:url(images/cover-one.jpg)" -->
+			<video poster="assets/screenshot1.jpg" autoplay muted loop class="vidbacking">
+	            <source src="assets/Rallye.3gp" type="video/mp4">
+	        </video>
 		</div>
 		<div class="carousel-caption">
 			<h1 class="wow animated slideInDown">Next Generation Trading for Professionals & Corporates</h1>
@@ -582,5 +596,11 @@
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/additional-methods.min.js"></script>
 <script src="js/hallooou.js"></script>
+<script src="js/jquery.vidbacking.js"></script>
+<script>
+   $(function(){
+        $('.video-back').vidbacking();
+   });
+</script>
 </body>
 </html>

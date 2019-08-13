@@ -2192,7 +2192,6 @@ footer .btn-lang.line:after {
     .navbar-custom .button_container span {
         background: #fff;
     }
-
 }
 
 /* Selection and other generic styles
@@ -2246,3 +2245,27 @@ body {
      margin: 10px;
      line-height: 2em;
  }
+ #language{
+    font-family: SimSun !important;
+    padding: 5px;
+    font-size: 20px !important;
+ }
+ #language_pc{
+    font-family: SimSun !important;
+    padding: 6px;
+    font-size: 14px;
+    top: 30px;
+    right: 10px;
+    position: absolute;
+    transition: ease-in-out .5s;
+    border-radius: 3px;
+    border: none;
+ }
+ #language_pc.top-nav-collapse{
+     top: 20px;
+ }
+ @media (max-width: 1440px) {
+   #language_pc{
+       display: none;
+   }
+}
