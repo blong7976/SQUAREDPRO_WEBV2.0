@@ -2311,3 +2311,30 @@ body {
     color: #959493;
     margin-top: 16px;
 }
+#FX tbody > tr td{ line-height: 45px; text-align: center}
+#FX tbody > tr:nth-child(odd) {
+    background: #f2f2f2;
+}
+#FX li h5{cursor: pointer;margin-top: 10px;}
+#FX li h5:hover{color: #018804}
+.vm-btn{
+    font-family: SimSun !important;
+    padding: 5px 40px;
+    font-size: 16px !important;
+    line-height: 30px;
+    background: #ff5a00;
+    color: #fff;
+    margin-top: 16px;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #ff5a00;
+    position: relative;
+    transition: all .3s;
+}
+.vm-btn:hover{
+    background: #fff;
+    color: #ff5a00;
+}
+.Download a{
+    text-decoration: underline;
+}

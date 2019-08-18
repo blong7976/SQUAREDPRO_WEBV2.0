@@ -24,6 +24,15 @@ $(function () {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+
+    $("#FX li h5").next().hide();
+    $("#FX li").on('click','h5',function(){
+        if($(this).next().css('display')=='none'){
+            $(this).next().show()
+        }else {
+            $(this).next().hide()
+        }
+    })
 });
 
 
