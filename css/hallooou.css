@@ -2338,3 +2338,60 @@ body {
 .Download a{
     text-decoration: underline;
 }
+.p-5 {
+    padding: 2.5rem !important;
+}
+.p-0{
+    padding: 0;
+}
+.bottom-gd p{
+    margin: 0;
+    color: #666;
+    line-height: 28px;
+    letter-spacing: .5px;
+    font-size: 13px;
+}
+.bottom-gd2-active p{
+    margin: 0;
+    color: #fff;
+    line-height: 28px;
+    letter-spacing: .5px;
+    font-size: 13px;
+}
+.bottom-gd2-active h3{
+    font-size: 1.1em;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 0em;
+    text-transform: uppercase;
+}
+.my-3  {
+    font-size: 1.1em;
+    color: #000;
+    height: 46px;
+    letter-spacing: 1px;
+    margin-top: 0em;
+    text-transform: uppercase;
+}
+.bottom-gd, .bottom-gd2-active {
+    background: #f4f6f8;
+    transition: 2s all;
+    -webkit-transition: 2s all;
+    -moz-transition: 2s all;
+    -ms-transition: 2s all;
+    -o-transition: 2s all;
+    cursor: pointer;
+    box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
+}
+.bottom-gd:hover, .bottom-gd2-active {
+    background: #ff5a00 !important;
+    transition: 2s all;
+    -webkit-transition: 2s all;
+    -moz-transition: 2s all;
+    -ms-transition: 2s all;
+    -o-transition: 2s all;
+}
+.bottom-gd:hover p,
+.bottom-gd:hover h3{
+    color: #fff;
+}
