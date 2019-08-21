@@ -2395,3 +2395,6 @@ body {
 .bottom-gd:hover h3{
     color: #fff;
 }
+.colored{
+    background-color: #f6f6f6;
+}
